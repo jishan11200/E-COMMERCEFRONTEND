@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #817070;
+    line-height: 1.45;
+}
+
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.heading {
+    font-size: 18px;
+    letter-spacing: 1.1rem;
+    text-transform: uppercase;
+}
+
+header {
+    background: #e3e6f3;
+}
+
+.ecommerce-section {
+    padding: 70px;
+}
+
+.navbar .nav-link {
+    margin: 10px;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #088178;
+}
+
+
+/* nav end */
+
+
+/* slider start */
+
+.carousel-item img {
+    height: 550px;
+}
+
+
+/* slider end */
+
+
+/* home start */
+
+
+/* home End */
+
+
+/* card start */
+
+.card-hover {
+    transition: .4s;
+}
+
+.card-hover:hover {
+    transform: scale(1.1);
+}
+
+
+/* card end */
+
+
+/* discount start */
+
+.discount-disc {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* discount end */
+
+
+/* Media section start */
+
+.images {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.media-img1 {
+    -webkit-filter: blur(5px);
+    filter: blur(2px);
+}
+
+
+/* media section end */
+
+
+/* media-section2 start */
+
+.bg-text1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-left: -15px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+/* media section2 end */
+
+
+/* footer start */
+
+.link-div {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* footer end */
